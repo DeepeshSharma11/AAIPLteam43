@@ -1,0 +1,10 @@
+# Generation parameters for Q-agent [cite: 65, 74]
+max_tokens: 150 # Cumulatively for topic, question, choices, answer
+temperature: 0.7
+top_p: 0.9
+
+%%writefile agen.yaml
+# Generation parameters for A-agent [cite: 65, 78]
+max_tokens: 512 # reasoning limit [cite: 76]
+temperature: 0.1
+top_p: 0.9
